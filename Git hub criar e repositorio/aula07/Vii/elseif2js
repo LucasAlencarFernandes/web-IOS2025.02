@@ -1,0 +1,27 @@
+let credencial = ""
+
+if (credencial == "visitante") {
+    console.log("Você só pode ir onde seu anfitrão for.");
+
+}
+else if (credencial == "estagiario") {
+    console.log("Você pode acessar as baias de trabalho e refeitorio");
+}
+
+else if (credencial == "aprendiz") {
+    console.log("Você pode acessar as baias de trabalho e refeitorio");
+}
+
+else if (credencial == "CLT") {
+    console.log("Você pode acessar tudo, menos a sala diretor");
+}
+else if (credencial == "CEO") {
+    console.log("O céu é o limite.");
+}
+else if (credencial == "CLT") {
+    console.log("Quero ser CLT em suporte de T.I");
+}
+else  {
+    console.log("Credencial invalida Não autorizado");
+}
+
