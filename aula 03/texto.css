@@ -1,0 +1,19 @@
+/* Para usar uma fonte da internet podemos usar o @import do site especificado.No exemplo abaixo utilizamos o site Google Fonts pra importar e utilizar uma nova font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Creepster&family=Playwrite+CU+Guides&display=swap');
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    /* 1° valor deslocamento horizontal */
+    /* 2° valor: deslocmento vertical */
+    /* 3 valor: desfoque */
+    /* 4 valor: cor da sombra */
+    text-shadow: 10px -10px 5px;
+}
+p{
+    font-family: "Creepster", system-ui;
+    text-align: center;
+    width: 600px,
+}
