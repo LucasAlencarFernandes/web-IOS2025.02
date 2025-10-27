@@ -1,0 +1,14 @@
+h1{
+    /* h1{border-width determina o tamanho  da borda */
+        border-width: 10px;
+        /* border-color determina a cor da borda */
+        border-color: 10px;
+        /* border-style determina o formato da borda */
+        border-style: double;
+    
+    }
+    p {
+        /* Podemos criar bordas de maneira abreviada ultilizando apenas a propriedade border 
+        border recebe 3 valores, sendo eles tamanho(10px) tipo(dashed) cor(yellow); */
+        border: 10px dashed rgb(191, 194, 14)  ;
+    }

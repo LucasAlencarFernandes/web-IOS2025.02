@@ -1,0 +1,23 @@
+body{
+    background-image: url("https://img1.wsimg.com/isteam/ip/08277500-7761-4aa0-a35a-4a5cea52f94a/7%20bom%20dia.png/:/");
+   /* Faz com imagem de fundopreemcha a tela */
+    background-size: cover;
+}
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: rgb(0, 17, 255);
+}
+h2{
+  color: #0a7dbf38;  
+}
+/* hex o codigo hexadecimal, representa uma cor especifica.Esse código é como você receberá de seu designer as cores para construir os sites de seus clientes */
+p{
+    color: #19ff4b;
+}
